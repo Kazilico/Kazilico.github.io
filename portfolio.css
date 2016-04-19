@@ -9,6 +9,7 @@
 .container {
 	width: 100%;
 	height: 100vh;
+	text-decoration: none;
 }
 
 .nav {
@@ -18,8 +19,12 @@
 	top: 0px;
 	left: 0px;
 	z-index: 1;
-	background-image: -webkit-linear-gradient(top, #FFFFFF 0, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.4) 100%);
+	background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.9) 0%, rgba(25, 25, 25, 0.9) 100%);
 }
+
+a:link, a:visited {
+	text-decoration: none;
+} 
 
 .aboutMe {
 	font-family: 'Martel Sans', sans-serif;
@@ -29,6 +34,7 @@
 	left: 20%;
 	font-size: 20px;
 	color: white;
+	text-decoration: none
 }
 
 .myWork {
@@ -142,8 +148,8 @@
 	width: 45%;
 	height: 20vh;
 	position: fixed;
-	bottom: 0px;
-	right: 0px;
+	bottom: 150px;
+	right: -50px;
 	z-index: 1;
 	background-image: -webkit-linear-gradient(top, #FFFFFF 0, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%);
 }
@@ -155,4 +161,5 @@
 	color: white;
 	top: 15%;
 	right: 15%;
+	text-decoration: none;
 }
