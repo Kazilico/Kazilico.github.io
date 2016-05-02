@@ -144,6 +144,19 @@ a:link, a:visited {
 	left: 0px;
 }
 
+.underConstruction {
+	width: 80%;
+	height: 20vh;
+	position: fixed;
+	top: 350px;
+	left: 355px;
+	font-family: 'Martel Sans', sans-serif, bolder;
+	font-size: 80px;
+	color: white;
+	z-index: 1;
+	background-image: -webkit-linear-gradient(top, #FFFFFF 0, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
 .fixed {
 	width: 45%;
 	height: 20vh;
@@ -162,4 +175,10 @@ a:link, a:visited {
 	top: 15%;
 	right: 15%;
 	text-decoration: none;
+}
+
+@media (max-width: 500px) {
+	img {
+		width: 250px;
+	}
 }
