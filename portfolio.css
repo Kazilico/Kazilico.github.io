@@ -68,7 +68,7 @@ a:link, a:visited {
 .stream {
 	width: 100%;
 	height: 100vh;
-	position: relative;
+	position: fixed;
 	top: 0px;
 	left: 0px;
 }
@@ -96,6 +96,50 @@ a:link, a:visited {
 	z-index: 1;
 }
 
+.bio {
+	font-family: 'Martel Sans', sans-serif;
+	position: absolute;
+	display: inline-block;
+	top: 30%;
+	right: 20%;
+	font-size: 35px;
+	color: white;
+	z-index: 1;
+}
+
+.podcast {
+	font-family: 'Martel Sans', sans-serif;
+	position: absolute;
+	display: inline-block;
+	top: 40%;
+	right: 20%;
+	font-size: 35px;
+	color: white;
+	z-index: 1;
+}
+
+.example {
+	font-family: 'Martel Sans', sans-serif;
+	position: absolute;
+	display: inline-block;
+	top: 40%;
+	right: 20%;
+	font-size: 35px;
+	color: white;
+	z-index: 1;
+}
+
+.links {
+	font-family: 'Martel Sans', sans-serif;
+	position: absolute;
+	display: inline-block;
+	top: 40%;
+	right: 20%;
+	font-size: 35px;
+	color: white;
+	z-index: 1;
+}
+
 .kazilico {
 	width: 100%;
 	height: 100vh;
@@ -104,13 +148,6 @@ a:link, a:visited {
 	left: 0px;
 }
 
-.puppyLove {
-	width: 100%;
-	height: 100vh;
-	position: relative;
-	top: 0px;
-	left: 0px;
-}
 
 .workPage {
 	width: 100%;
@@ -120,23 +157,8 @@ a:link, a:visited {
 	left: 0px;
 }
 
-.nixon {
-	width: 100%;
-	height: 100vh;
-	position: relative;
-	top: 0px;
-	left: 0px;
-}
 
 .contactPage {
-	width: 100%;
-	height: 100vh;
-	position: relative;
-	top: 0px;
-	left: 0px;
-}
-
-.wall {
 	width: 100%;
 	height: 100vh;
 	position: relative;
