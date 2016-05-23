@@ -2,18 +2,18 @@
 <html>
 	<head>
 		<title>Kazilico</title>
-		<script src="libs/angular.js"></script>
+		<script src="libs/jquery.js"></script>
 		<link type="text/css" rel="stylesheet" href="portfolio.css"/>
 		<link href='https://fonts.googleapis.com/css?family=Martel+Sans:400,800' rel='stylesheet' type='text/css'>
 	</head>	
 	<body>	
 		<div class="container">	
 			<image class="stream" src="images/difficultrun.jpg" />			
-			<div class="nav" id="nav">					
-				<a class= "aboutMe" href="#aboutMe">Kazilico?</a> 
+			<nav class="nav" id="nav">					
+				<a class= "aboutMe" href="#aboutMe" <button type="aboutMeButton">Kazilico?</button></a> 
 				<a class="myWork" href="#myWork">My Work</a>
 				<a class="contact" href="#contactPage">Contact</a>				
-			</div>				
+			</nav>				
 			<div class="intro" id="landingPage">
 				<p class="quote">"Anything can make me stop and look and wonder, and sometimes learn."</p>
 				<p class="author">- Kurt Vonnegut</p>	
@@ -33,7 +33,9 @@
 			<div class="fixed">
 				<a class="name" href="#landingPage">Kazilico</a></span>
 			</div>
-		</div>	
+		</div>
+
 		<script src="index.js"></script>
+
 	</body>	
 </html>
