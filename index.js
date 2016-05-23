@@ -5,7 +5,12 @@ $(document).ready(function() {
 
 function setAnchors() {
 	$("nav a").click(function(e){
-		alert('hit');
+		e.preventDefault();
+		var sectionID = e.currentTarget.id + "Section";
+
+			$("html body").animate({
+				scrollTop: $("#" + sectionID).offset().top
+			}, 1000)
 	})
 }
 
