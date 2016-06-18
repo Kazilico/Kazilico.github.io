@@ -157,13 +157,13 @@ a.name:hover {
 }
 
 .bioContainer {
-	width: 65%;
+	width: 95%;
 	position: relative;
-	top: 30%;
-	left: 10%;
+	top: 5%;
+	left: 5%;
 	text-align: center;
 	z-index: 1;
-	background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.9) 0%, rgba(25, 25, 25, 0.9) 100%);
+	background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
 }
 
 .bio1 {
@@ -215,17 +215,6 @@ a.name:hover {
 	z-index: 1;
 }
 
-.example {
-	font-family: 'Martel Sans', sans-serif;
-	position: absolute;
-	display: inline-block;
-	top: 40%;
-	right: 20%;
-	font-size: 35px;
-	color: white;
-	z-index: 1;
-}
-
 .links {
 	font-family: 'Martel Sans', sans-serif;
 	position: absolute;
@@ -254,6 +243,99 @@ a.name:hover {
 	left: 0px;
 }
 
+.sAndP {
+	position: absolute;
+	display: inline-block;
+	width: 20%;
+	top: 16%;
+	left: 20%;
+}
+
+.surfAndPaddle {
+	width: 100%;
+	position: relative;
+	top: 2px;
+}
+
+.surfAndPaddleText {
+	font-family: 'Martel Sans', sans-serif;
+	position: relative;
+	width: 52%;
+	padding-left: 10px;
+	color: white;
+	font-size: 20px;
+	background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
+}
+
+.cClock {
+	position: absolute;
+	display: inline-block;
+	width: 20%;
+	top: 16%;
+	left: 60%;
+}
+
+.colorClock {
+	width: 100%;
+	position: relative;
+}
+
+.colorClockText {
+	font-family: 'Martel Sans', sans-serif;
+	position: relative;
+	width: 46%;
+	padding-left: 10px;
+	color: white;
+	font-size: 20px;
+	background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
+}
+
+.tDRPG {
+	position: absolute;
+	display: inline-block;
+	width: 20%;
+	top: 43%;
+	left: 20%;
+}
+
+.toDoRPG {
+	width: 100%;
+	position: relative;
+}
+
+.toDoRPGText {
+	font-family: 'Martel Sans', sans-serif;
+	position: relative;
+	width: 44%;
+	padding-left: 10px;
+	color: white;
+	font-size: 20px;
+	background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
+}
+
+.sT {
+	position: absolute;
+	display: inline-block;
+	width: 20%;
+	top: 43%;
+	left: 60%;
+}
+
+.starterTech {
+	width: 100%;
+	position: relative;
+	top: 2px;
+}
+
+.starterTechText {
+	font-family: 'Martel Sans', sans-serif;
+	position: relative;
+	width: 47%;
+	padding-left: 10px;
+	color: white;
+	font-size: 20px;
+	background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
+}
 
 .contactPage {
 	width: 100%;
@@ -263,49 +345,31 @@ a.name:hover {
 	left: 0px;
 }
 
-.underConstruction {
-	width: 70%;
-	height: 20vh;
-	position: fixed;
-	bottom: 50px;
-	left: 20px;
-	font-family: 'Martel Sans', sans-serif, bolder;
-	font-size: 60px;
-	color: white;
-	z-index: 1;
-	background-image: -webkit-linear-gradient(top, #FFFFFF 0, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%);
-}
-
-.github {
+.github, .medium, .twitter, .linkedIn, .email {
 	position: absolute;
 	width: 140px;
 	height: auto;
 	top: 40%;
+}
+
+.github {
 	left: 15%;
 }
 
 .medium {
-	position: absolute;
-	width: 140px;
-	height: auto;
-	top: 40%;
-	left: 35%;
+	left: 28%;
 }
 
 .twitter {
-	position: absolute;
-	width: 140px;
-	height: auto;
-	top: 40%;
-	left: 55%;
+	left: 41%;
+}
+
+.linkedIn {
+	left: 54%;
 }
 
 .email {
-	position: absolute;
-	width: 140px;
-	height: auto;
-	top: 40%;
-	left: 75%;
+	left: 67%;
 }
 
 .credit {
