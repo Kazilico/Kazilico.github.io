@@ -9,44 +9,20 @@
 .container {
 	width: 100%;
 	height: 100vh;
-	position: absolute;
-	background-position: center center;
-	background: url(images/difficultruninfinite.jpg);
+	background: url(images/difficultrunscaled.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	text-decoration: none;
 }
-
-@media screen and (max-width: 1600px) {
-	.stream {
-		width: 100%;
-		content:url("images/difficultrun.jpg");
-	}
-}
-
-@media screen and (max-width: 660px) {
-	.stream {
-		position: absolute;
-		height: 100vh;
-	}
-}
-
-@media screen and (max-width: 660px) {
-	.stream {
-		content:url("images/difficultrun659px.jpg");
-	}
-}
-
-@media screen and (max-width: 600px) {
-	.stream {
-		content:url("images/difficultrun320px.jpg");
-	}
-}
-
+/*
 .stream {
 	position: fixed;
 	top: 0px;
 	left: 0px;
 }
-
+*/
 .nav {
 	width: 100%;
 	height: 100px;
@@ -66,7 +42,7 @@ a:link, a:visited {
 	position: relative;
 	display: inline-block;
 	top: 30%;
-	left: 20%;
+	left: 21%;
 	font-size: 2vw;
 	color: white;
 	text-decoration: none
@@ -85,7 +61,7 @@ a.aboutMe:focus {
 	position: relative;
 	display: inline-block;
 	top: 30%;
-	left: 39%;
+	left: 40%;
 	font-size: 2vw;
 	color: white;
 }
@@ -120,8 +96,8 @@ a.contact:focus {
 	width: 45%;
 	height: 20vh;
 	position: fixed;
-	bottom: 150px;
-	right: -50px;
+	bottom: 20%;
+	right: 0%;
 	z-index: 1;
 	background-image: -webkit-linear-gradient(top, #FFFFFF 0, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%);
 }
@@ -146,6 +122,7 @@ a.name:hover {
 	position: relative;
 	top: 0px;
 	left: 0px;
+	background-image: -webkit-linear-gradient(top, #FFFFFF 0, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 .quoteContainer {
@@ -184,11 +161,12 @@ a.name:hover {
 .bioContainer {
 	width: 70%;
 	position: relative;
+	top: 20%;
 	margin-left: 15%;
 	margin-right: 15%;
 	margin-top: 20%;
 	margin-bottom:20%;
-	padding: 5%;
+	padding: 3%;
 	z-index: 1;
 	background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
 }
@@ -197,11 +175,10 @@ a.name:hover {
 	font-family: 'Martel Sans', sans-serif;
 	position: relative;
 	display: inline-block;
-	width: 90%;
+	width: 100%;
 	padding-bottom: 1%;
-	padding-top: 10%;
-	left: 5%;
-	font-size: 1.3vw;
+	left: 2%;
+	font-size: 1.1vw;
 	color: white;
 	z-index: 1;
 }
@@ -210,10 +187,10 @@ a.name:hover {
 	font-family: 'Martel Sans', sans-serif;
 	position: relative;
 	display: inline-block;
-	width: 90%;
+	width: 100%;
 	padding-bottom: 1%;
-	left: 5%;
-	font-size: 1.3vw;
+	left: 2%;
+	font-size: 1.1vw;
 	color: white;
 	z-index: 1;
 }
@@ -222,10 +199,10 @@ a.name:hover {
 	font-family: 'Martel Sans', sans-serif;
 	position: relative;
 	display: inline-block;
-	width: 90%;
+	width: 100%;
 	padding-bottom: 1%;
-	left: 5%;
-	font-size: 1.3vw;
+	left: 2%;
+	font-size: 1.1vw;
 	color: white;
 	z-index: 1;
 }
@@ -234,10 +211,10 @@ a.name:hover {
 	font-family: 'Martel Sans', sans-serif;
 	position: relative;
 	display: inline-block;
-	width: 90%;
+	width: 100%;
 	padding-bottom: 1%;
-	left: 5%;
-	font-size: 1.3vw;
+	left: 2%;
+	font-size: 1.1vw;
 	color: white;
 	z-index: 1;
 }
@@ -270,40 +247,17 @@ a.name:hover {
 	left: 0px;
 }
 
-/*
-.work {
-	height: 200px;
-	width: 200px;
-	border: 1px solid white;
-	overflow: hidden;
-}
-*/
-
-/*
-.work .activator {
-	height: 200px;
-	width: 200px;
-	float: left;
-	display: block;
-}
-*/
 .activator:hover {
 	width: 150%;
 	-webkit-transition: width 2000;
 	z-index: 1000;
 }
 
-/*
-.activator:hover .descriptions {
-	display: block;
-}
-*/
-
 .sAndP {
 	position: absolute;
 	display: inline-block;
 	width: 20%;
-	top: 16%;
+	top: 12%;
 	left: 20%;
 }
 
@@ -323,11 +277,37 @@ a.name:hover {
 	background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
 }
 
+.sAndPCodeButton {
+	font-family: 'Martel Sans', sans-serif;
+	position: relative;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #7CA447;
+	color: white;
+	width: 45%;
+	text-align: center;
+	text-decoration: none;
+}
+
+.sAndPSiteButton {
+	font-family: 'Martel Sans', sans-serif;
+	position: relative;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #7CA447;
+	color: white;
+	width: 45%;
+	text-align: center;
+	text-decoration: none;
+}
+
 .colorClock {
 	position: absolute;
 	display: inline-block;
 	width: 20%;
-	top: 16%;
+	top: 12%;
 	left: 60%;
 	float: right;
 }
@@ -347,11 +327,37 @@ a.name:hover {
 	position: relative;
 }
 
+.colorClockCodeButton {
+	font-family: 'Martel Sans', sans-serif;
+	position: relative;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #7CA447;
+	color: white;
+	width: 45%;
+	text-align: center;
+	text-decoration: none;
+}
+
+.colorClockSiteButton {
+	font-family: 'Martel Sans', sans-serif;
+	position: relative;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #7CA447;
+	color: white;
+	width: 45%;
+	text-align: center;
+	text-decoration: none;
+}
+
 .tDRPG {
 	position: absolute;
 	display: inline-block;
 	width: 20%;
-	top: 43%;
+	top: 49%;
 	left: 20%;
 }
 
@@ -370,11 +376,37 @@ a.name:hover {
 	background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
 }
 
+.tDRPGCodeButton {
+	font-family: 'Martel Sans', sans-serif;
+	position: relative;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #7CA447;
+	color: white;
+	width: 45%;
+	text-align: center;
+	text-decoration: none;
+}
+
+.tDRPGSiteButton {
+	font-family: 'Martel Sans', sans-serif;
+	position: relative;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #7CA447;
+	color: white;
+	width: 45%;
+	text-align: center;
+	text-decoration: none;
+}
+
 .sT {
 	position: absolute;
 	display: inline-block;
 	width: 20%;
-	top: 43%;
+	top: 49%;
 	left: 60%;
 }
 
@@ -393,6 +425,19 @@ a.name:hover {
 	font-size: 20px;
 	background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
 }
+
+.sTCompButton {
+	font-family: 'Martel Sans', sans-serif;
+	position: relative;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #7CA447;
+	color: white;
+	width: 45%;
+	text-align: center;
+	text-decoration: none;
+}
  /*
 .descriptions {
 	font-family: 'Martel Sans', sans-serif;
@@ -409,7 +454,6 @@ a.name:hover {
 	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%);
 	z-index: 1;
 }
-*/
 
 .descriptions {
 	font-family: 'Martel Sans', sans-serif;
@@ -426,6 +470,7 @@ a.name:hover {
 .descriptions:hover {
 	opacity: 1;
 }
+*/
 
 .contactPage {
 	width: 100%;
@@ -433,33 +478,6 @@ a.name:hover {
 	position: relative;
 	top: 0px;
 	left: 0px;
-}
-
-.github, .medium, .twitter, .linkedIn, .email {
-	position: absolute;
-	width: 140px;
-	height: auto;
-	top: 40%;
-}
-
-.github {
-	left: 15%;
-}
-
-.medium {
-	left: 28%;
-}
-
-.twitter {
-	left: 41%;
-}
-
-.linkedIn {
-	left: 54%;
-}
-
-.email {
-	left: 67%;
 }
 
 .credit {
@@ -472,8 +490,258 @@ a.name:hover {
 	text-decoration: none;
 }
 
-@media (max-width: 500px) {
-	img {
-		width: 250px;
+@media screen and (max-width: 1600px) {
+
+	.github, .medium, .twitter, .linkedIn, .email {
+		position: absolute;
+		width: 100px;
+		
+		top: 40%;
 	}
+
+	.github {
+		left: 15%;
+		content:url("images/GithubGreen.png");
+	}
+
+	.medium {
+		left: 30%;
+		content:url("images/MediumGreen.png");
+	}
+
+	.twitter {
+		left: 44%;
+		content:url("images/TwitterGreen.png");
+	}
+
+	.linkedIn {
+		left: 59%;
+		content:url("images/LinkedInGreen.png");
+	}
+
+	.email {
+		left: 74%;
+		content:url("images/close-envelope.png");
+	}
+}
+
+@media screen and (max-width: 1200px) {	
+	.github {
+		top: 75%;
+		left: 15%;
+		content:url("images/GithubGreenSmall.png");
+	}
+
+	.medium {
+		top: 60%;
+		left: 30%;
+		content:url("images/MediumGreenSmall.png");
+	}
+
+	.twitter {
+		top: 45%;
+		left: 44%;
+		content:url("images/TwitterGreenSmall.png");
+	}
+
+	.linkedIn {
+		top: 30%;
+		left: 59%;
+		content:url("images/LinkedInGreenSmall.png");
+	}
+
+	.email {
+		top: 15%;
+		left: 74%;
+		content:url("images/close-envelopeSmall.png");
+	}
+}
+
+@media screen and (max-width: 660px) {
+
+
+@media screen and (max-width: 600px) {
+	.aboutMe {
+		top: 30%;
+		left: 21%;
+		font-size: 3.5vw;
+	}
+
+	.myWork {
+		top: 30%;
+		left: 37%;
+		font-size: 3.5vw;
+	}
+
+	.contact {
+		top: 30%;
+		left: 50%;
+		font-size: 3.5vw;
+	}
+
+	.fixed {
+		bottom: 12%;
+		right: -24%;
+	}
+
+	.name {
+		transform: rotate(270deg);
+		transform-origin: ;
+	}
+
+	.quoteContainer {
+		width: 70%;
+		height: 30vh;
+		top: 25%;
+		margin-left: 15%;
+		padding: 20px;
+
+	}
+
+	.quote {
+		top: 20px;
+		left: 20px;
+		font-size: 4.15vw;
+	}
+
+	.author {
+		display: inline-block;
+		top: 20px;
+		left: 120px;
+		font-size: 4.5vw;
+	}
+
+	.bioContainer {
+		width: 70%;
+		height: 74vh;
+	}
+
+	.bio1 {
+		width: 95%;
+		padding-bottom: 6%;
+		left: 2%;
+		font-size: 2.4vw;
+	}
+
+	.bio2 {
+		width: 95%;
+		padding-bottom: 6%;
+		left: 2%;
+		font-size: 2.4vw;
+	}
+
+	.bio3 {
+		width: 95%;
+		padding-bottom: 6%;
+		left: 2%;
+		font-size: 2.4vw;
+	}
+
+	.bio4 {
+		width: 95%;
+		padding-bottom: 6%;
+		left: 2%;
+		font-size: 2.4vw;
+	}
+
+	.sAndP {
+		width: 35%;
+		top: 20%;
+		left: 10%;
+	}
+
+	.surfAndPaddleText {
+		width: 100%;
+		font-size: 15px;
+		text-align: center;
+		padding: 10px;
+	}
+
+	.sAndPCodeButton {
+		display: block;
+		margin-top: 10px;
+		width: 100%;
+	}
+
+	.sAndPSiteButton {
+		display: block;
+		width: 100%;
+	}
+
+	.colorClock {
+		width: 35%;
+		top: 20%;
+		left: 50%;
+	}
+
+	.colorClockText {
+		width: 100%;
+		font-size: 15px;
+		text-align: center;
+		padding: 10px;
+	}
+
+	.colorClockCodeButton {
+		display: block;
+		margin-top: 10px;
+		width: 100%;
+	}
+
+	.colorClockSiteButton {
+		display: block;
+		width: 100%;
+	}
+
+	.tDRPG {
+		width: 35%;
+		top: 59%;
+		left: 10%;
+	}
+
+	.toDoRPG {
+		width: 100%;
+		position: relative;
+	}
+
+	.toDoRPGText {
+		width: 100%;
+		font-size: 15px;
+		text-align: center;
+		padding: 10px;	}
+
+	.tDRPGCodeButton {
+		display: block;
+		margin-top: 10px;
+		width: 100%;
+	}
+
+	.tDRPGSiteButton {
+		display: block;
+		width: 100%;
+	}
+
+	.sT {
+		width: 35%;
+		top: 59%;
+		left: 50%;
+	}
+
+	.starterTech {
+		width: 100%;
+		position: relative;
+	}
+
+	.starterTechText {
+		width: 100%;
+		font-size: 15px;
+		text-align: center;
+		padding: 10px;
+	}
+
+	.sTCompButton {
+		display: block;
+		margin-top: 10px;
+		width: 100%;
+	}
+
 }
