@@ -1,0 +1,4 @@
+[submodule "projects/surf-paddle"]
+	path = projects/surf-paddle
+	url = https://github.com/Kazilico/surf-paddle
+	branch  = gh-pages
