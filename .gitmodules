@@ -2,3 +2,7 @@
 	path = projects/surf-paddle
 	url = https://github.com/Kazilico/surf-paddle
 	branch  = gh-pages
+[submodule "projects/color-clock"]
+	path = projects/color-clock
+	url = https://github.com/Kazilico/color-clock
+	branch = gh-pages
