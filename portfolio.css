@@ -15,453 +15,277 @@ body {
     background-color: #000000 !important;
 }
 
-.container {
-	width: 100%;
-	height: 100vh;
-	text-decoration: none;
-}
-
-.nav {
-	width: 100%;
-	height: 100px;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	z-index: 2;
-	background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.9) 0%, rgba(25, 25, 25, 0.9) 100%);
-}
-
-a:link, a:visited {
-	text-decoration: none;
-}
-
-.aboutMe {
-	font-family: 'Martel Sans', sans-serif;
-	position: relative;
-	display: inline-block;
-	top: 30%;
-	left: 21%;
-	font-size: 2vw;
-	color: white;
-	text-decoration: none
-}
-
-a.aboutMe:hover {
-	color: #B9B5A9;
-}
-
-a.aboutMe:focus {
-	color: #7CA447;
-}
-
-.myWork {
-	font-family: 'Martel Sans', sans-serif;
-	position: relative;
-	display: inline-block;
-	top: 30%;
-	left: 40%;
-	font-size: 2vw;
-	color: white;
-}
-
-a.myWork:hover {
-	color: #B9B5A9;
-}
-
-a.myWork:focus {
-	color: #7CA447;
-}
-
-.contact {
-	font-family: 'Martel Sans', sans-serif;
-	position: relative;
-	display: inline-block;
-	top: 30%;
-	left: 58%;
-	font-size: 2vw;
-	color: white;
-}
-
-a.contact:hover {
-	color: #B9B5A9;
-}
-
-a.contact:focus {
-	color: #7CA447;
-}
-
-.fixed {
-	width: 45%;
-	height: 20vh;
-	position: fixed;
-	bottom: 20%;
-	right: 0%;
-	z-index: 1;
-	background-image: -webkit-linear-gradient(top, #FFFFFF 0, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%);
-}
-
-.name {
-	position: absolute;
-	font-family: 'Martel Sans', sans-serif, bolder;
-	font-size: 12vw;
-	color: white;
-	top: 15%;
-	right: 15%;
-	text-decoration: none;
-}
-
-a.name:hover {
-	color: #B9B5A9;
-}
-
-.intro {
-	width: 100%;
-	height: 100vh;
-	position: relative;
-	top: 0px;
-	left: 0px;
-	background-image: -webkit-linear-gradient(top, #FFFFFF 0, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%);
-}
-
-.quoteContainer {
-	width: 60%;
-	height: 30vh;
-	position: relative;
-	top: 30%;
-	margin-left: 20%;
-	padding: 20px;
-	z-index: 1;
-	background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
-}
-
-.quote {
-	font-family: 'Martel Sans', sans-serif;
-	position: relative;
-	display: inline;
-	top: 20px;
-	left: 20px;
-	font-size: 2.3vw;
-	color: white;
-	z-index: 1;
-}
-
-.author {
-	font-family: 'Martel Sans', sans-serif;
-	position: relative;
-	display: inline;
-	top: 20px;
-	left: 50px;
-	font-size: 2.7vw;
-	color: white;
-	z-index: 1;
-}
-
-.bioContainer {
-	width: 70%;
-	position: relative;
-	top: 20%;
-	margin-left: 15%;
-	margin-right: 15%;
-	margin-top: 20%;
-	margin-bottom:20%;
-	padding: 3%;
-	z-index: 1;
-	background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
-}
-
-.bio1 {
-	font-family: 'Martel Sans', sans-serif;
-	position: relative;
-	display: inline-block;
-	width: 100%;
-	padding-bottom: 1%;
-	left: 2%;
-	font-size: 1.1vw;
-	color: white;
-	z-index: 1;
-}
-
-.bio2 {
-	font-family: 'Martel Sans', sans-serif;
-	position: relative;
-	display: inline-block;
-	width: 100%;
-	padding-bottom: 1%;
-	left: 2%;
-	font-size: 1.1vw;
-	color: white;
-	z-index: 1;
-}
-
-.bio3 {
-	font-family: 'Martel Sans', sans-serif;
-	position: relative;
-	display: inline-block;
-	width: 100%;
-	padding-bottom: 1%;
-	left: 2%;
-	font-size: 1.1vw;
-	color: white;
-	z-index: 1;
-}
-
-.bio4 {
-	font-family: 'Martel Sans', sans-serif;
-	position: relative;
-	display: inline-block;
-	width: 100%;
-	padding-bottom: 1%;
-	left: 2%;
-	font-size: 1.1vw;
-	color: white;
-	z-index: 1;
-}
-
-.links {
-	font-family: 'Martel Sans', sans-serif;
-	position: absolute;
-	display: inline-block;
-	top: 40%;
-	right: 20%;
-	font-size: 35px;
-	color: white;
-	z-index: 1;
-}
-
-.kazilico {
-	width: 100%;
-	height: 100vh;
-	position: relative;
-	top: 0px;
-	left: 0px;
-}
-
-
-.workPage {
-	width: 100%;
-	height: 100vh;
-	position: relative;
-	top: 0px;
-	left: 0px;
-}
-
-.activator:hover {
-	width: 150%;
-	-webkit-transition: width 2000;
-	z-index: 1000;
-}
-
-.sAndP {
-	position: absolute;
-	display: inline-block;
-	width: 20%;
-	top: 12%;
-	left: 20%;
-	text-decoration: none;
-}
-
-.surfAndPaddle {
-	width: 100%;
-	position: relative;
-	top: 2px;
-}
-
-.surfAndPaddleText {
-	font-family: 'Martel Sans', sans-serif;
-	position: relative;
-	width: 52%;
-	padding-left: 10px;
-	color: white;
-	font-size: 20px;
-	background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
-}
-
-.sAndPCodeButton {
-	font-family: 'Martel Sans', sans-serif;
-	position: relative;
-	display: inline-block;
-	margin-top: 10px;
-	padding: 10px;
-	background-color: #7CA447;
-	color: white;
-	width: 45%;
-	text-align: center;
-	text-decoration: none;
-}
-
-.sAndPSiteButton {
-	font-family: 'Martel Sans', sans-serif;
-	position: relative;
-	display: inline-block;
-	margin-top: 10px;
-	padding: 10px;
-	background-color: #7CA447;
-	color: white;
-	width: 45%;
-	text-align: center;
-	text-decoration: none;
-}
-
-.colorClock {
-	position: absolute;
-	display: inline-block;
-	width: 20%;
-	top: 12%;
-	left: 60%;
-	float: right;
-}
-
-.colorClockText {
-	font-family: 'Martel Sans', sans-serif;
-	position: relative;
-	width: 46%;
-	padding-left: 10px;
-	color: white;
-	font-size: 20px;
-	background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
-}
-
-.colorClockImg {
-	width: 100%;
-	position: relative;
-}
-
-.colorClockCodeButton {
-	font-family: 'Martel Sans', sans-serif;
-	position: relative;
-	display: inline-block;
-	margin-top: 10px;
-	padding: 10px;
-	background-color: #7CA447;
-	color: white;
-	width: 45%;
-	text-align: center;
-	text-decoration: none;
-}
-
-.colorClockSiteButton {
-	font-family: 'Martel Sans', sans-serif;
-	position: relative;
-	display: inline-block;
-	margin-top: 10px;
-	padding: 10px;
-	background-color: #7CA447;
-	color: white;
-	width: 45%;
-	text-align: center;
-	text-decoration: none;
-}
-
-.tDRPG {
-	position: absolute;
-	display: inline-block;
-	width: 20%;
-	top: 49%;
-	left: 20%;
-}
-
-.toDoRPG {
-	width: 100%;
-	position: relative;
-}
-
-.toDoRPGText {
-	font-family: 'Martel Sans', sans-serif;
-	position: relative;
-	width: 44%;
-	padding-left: 10px;
-	color: white;
-	font-size: 20px;
-	background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
-}
-
-.tDRPGCodeButton {
-	font-family: 'Martel Sans', sans-serif;
-	position: relative;
-	display: inline-block;
-	margin-top: 10px;
-	padding: 10px;
-	background-color: #7CA447;
-	color: white;
-	width: 45%;
-	text-align: center;
-	text-decoration: none;
-}
-
-.tDRPGSiteButton {
-	font-family: 'Martel Sans', sans-serif;
-	position: relative;
-	display: inline-block;
-	margin-top: 10px;
-	padding: 10px;
-	background-color: #7CA447;
-	color: white;
-	width: 45%;
-	text-align: center;
-	text-decoration: none;
-}
-
-.sT {
-	position: absolute;
-	display: inline-block;
-	width: 20%;
-	top: 49%;
-	left: 60%;
-}
-
-.starterTech {
-	width: 100%;
-	position: relative;
-	top: 2px;
-}
-
-.starterTechText {
-	font-family: 'Martel Sans', sans-serif;
-	position: relative;
-	width: 47%;
-	padding-left: 10px;
-	color: white;
-	font-size: 20px;
-	background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
-}
-
-.sTCompButton {
-	font-family: 'Martel Sans', sans-serif;
-	position: relative;
-	display: inline-block;
-	margin-top: 10px;
-	padding: 10px;
-	background-color: #7CA447;
-	color: white;
-	width: 50%;
-	text-align: center;
-	text-decoration: none;
-}
-
-.contactPage {
-	width: 100%;
-	height: 100vh;
-	position: relative;
-	top: 0px;
-	left: 0px;
-}
-
-.credit {
-	position: absolute;
-	left: 1%;
-	bottom: 1%;
-	font-family: 'Martel Sans', sans-serif;
-	font-size: 8px;
-	color: #B9B5A9;
-	text-decoration: none;
-}
-
 @media screen and (max-width: 1600px) {
+
+	.container {
+		width: 100%;
+		height: 100vh;
+		text-decoration: none;
+	}
+
+	.nav {
+		width: 100%;
+		height: 100px;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		z-index: 2;
+		background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.9) 0%, rgba(25, 25, 25, 0.9) 100%);
+	}
+
+	a:link, a:visited {
+		text-decoration: none;
+	}
+
+	.aboutMe, .myWork, .contact {
+		font-family: 'Martel Sans', sans-serif;
+		position: relative;
+		display: inline-block;
+		top: 30%;
+		font-size: 2vw;
+		color: white;
+		text-decoration: none
+	}
+
+	.aboutMe {
+		left: 21%;
+	}
+
+	.myWork {
+		left: 40%;
+	}
+
+	.contact {
+		left: 58%;
+	}
+
+	a.aboutMe:hover, a.myWork:hover, a.contact:hover {
+		color: #B9B5A9;
+	}
+
+	a.aboutMe:focus, a.myWork:focus, a.contact:focus {
+		color: #7CA447;
+	}
+
+	.fixed {
+		width: 45%;
+		height: 20vh;
+		position: fixed;
+		bottom: 12%;
+		right: -2%;
+		z-index: 1;
+		background-image: -webkit-linear-gradient(top, #FFFFFF 0, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%);
+	}
+
+	.name {
+		position: absolute;
+		font-family: 'Martel Sans', sans-serif, bolder;
+		font-size: 11vw;
+		color: white;
+		text-decoration: none;
+	}
+
+	a.name:hover {
+		color: #B9B5A9;
+	}
+
+	.intro {
+		width: 100%;
+		height: 100vh;
+		position: relative;
+		top: 0px;
+		left: 0px;
+	}
+
+	.quoteContainer {
+		width: 60%;
+		height: 30vh;
+		position: relative;
+		top: 30%;
+		margin-left: 20%;
+		padding: 20px;
+		z-index: 1;
+		background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
+	}
+
+	.quote, .author {
+		font-family: 'Martel Sans', sans-serif;
+		position: relative;
+		display: inline;
+		top: 20px;
+		color: white;
+		z-index: 1;
+	}
+
+	.quote {
+		left: 20px;
+		font-size: 2.3vw;
+	}
+
+	.author {
+		left: 50px;
+		font-size: 2.7vw;
+	}
+
+	.kazilico {
+		width: 100%;
+		height: 100vh;
+		position: relative;
+		top: 0px;
+		left: 0px;
+	}
+
+	.bioContainer {
+		width: 90%;
+		position: relative;
+		top: 17%;
+		margin-left: 5%;
+		margin-right: 15%;
+		margin-top: 20%;
+		margin-bottom:20%;
+		padding: 2%;
+		z-index: 1;
+		background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
+	}
+
+	.bio1, .bio2, .bio3, .bio4 {
+		font-family: 'Martel Sans', sans-serif;
+		position: relative;
+		display: inline-block;
+		width: 100%;
+		padding-bottom: 1%;
+		left: 0%;
+		font-size: 1.4vw;
+		color: white;
+		z-index: 1;
+	}
+
+	.links {
+		font-family: 'Martel Sans', sans-serif;
+		position: absolute;
+		display: inline-block;
+		top: 40%;
+		right: 20%;
+		font-size: 35px;
+		color: white;
+		z-index: 1;
+	}
+
+	.workPage {
+		width: 100%;
+		height: 100vh;
+		position: relative;
+		top: 0px;
+		left: 0px;
+	}
+	/*
+	.activator:hover {
+		width: 150%;
+		-webkit-transition: width 2000;
+		z-index: 1000;
+	}
+	*/
+	.sAndP, .colorClock, .tDRPG, .sT {
+		position: absolute;
+		display: inline-block;
+		width: 20%;
+		text-decoration: none;
+	}
+
+	.sAndP {
+		top: 16%;
+		left: 10%;
+	}
+	.colorClock {
+		top: 16%;
+		left: 35%;
+	}
+
+	.tDRPG {
+		top: 59%;
+		left: 10%;
+	}
+
+	.sT {
+		top: 59%;
+		left: 35%;
+	}
+
+	.surfAndPaddle, .colorClockImg, .toDoRPG, .starterTech {
+		width: 100%;
+		position: relative;
+	}
+
+	.surfAndPaddle, .starterTech {
+		top: 2px;
+	}
+
+	.surfAndPaddleText, .colorClockText, .toDoRPGText, .starterTechText {
+		font-family: 'Martel Sans', sans-serif;
+		position: relative;
+		padding-left: 10px;
+		color: white;
+		font-size: 20px;
+		background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
+	}
+
+	.surfAndPaddleText {
+		width: 52%;
+	}
+
+	.colorClockText {
+		width: 46%;
+	}
+
+	.toDoRPGText {
+		width: 44%;
+	}
+
+	.starterTechText {
+		width: 47%;
+	}
+
+	.sAndPCodeButton, .sAndPSiteButton, .colorClockCodeButton, .colorClockSiteButton, .tDRPGCodeButton, .tDRPGSiteButton, .sTCompButton {
+		font-family: 'Martel Sans', sans-serif;
+		position: relative;
+		display: inline-block;
+		margin-top: 10px;
+		padding: 10px;
+		background-color: #7CA447;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.sAndPCodeButton, .sAndPSiteButton, .colorClockCodeButton, .colorClockSiteButton, .tDRPGCodeButton, .tDRPGSiteButton {
+		width: 45%;
+	}
+
+	.sTCompButton {
+		width: 50%;
+	}
+
+	.contactPage {
+		width: 100%;
+		height: 100vh;
+		position: relative;
+		top: 0px;
+		left: 0px;
+	}
+
+	.credit {
+		position: absolute;
+		left: 1%;
+		bottom: 1%;
+		font-family: 'Martel Sans', sans-serif;
+		font-size: 8px;
+		color: #B9B5A9;
+		text-decoration: none;
+	}
 
 	.github, .medium, .twitter, .linkedIn, .email {
 		position: absolute;
-		width: 100px;
-
+		width: 110px;
 		top: 40%;
 	}
 
@@ -522,8 +346,6 @@ a.name:hover {
 		content:url("images/close-envelopeSmall.png");
 	}
 }
-
-@media screen and (max-width: 660px) {
 
 
 @media screen and (max-width: 600px) {
@@ -710,4 +532,379 @@ a.name:hover {
 		width: 100%;
 	}
 
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {	
+	.aboutMe, .myWork, .contact {
+		top: 25%;
+		font-size: 3vw;
+	}
+
+	.aboutMe {
+		left: 20%;
+	}
+
+	.myWork {
+		left: 36%;
+	}
+
+	.contact {
+		left: 52%;
+	}
+
+	.quoteContainer {
+		width: 70%;
+		height: 50vh;
+		position: relative;
+		top: 22%;
+		margin-left: 15%;
+		padding: 20px;
+		z-index: 1;
+		background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
+	}
+
+	.quote, .author {
+		font-family: 'Martel Sans', sans-serif;
+		position: relative;
+		top: 20px;
+		color: white;
+		z-index: 1;
+	}
+
+	.quote {
+		display: inline;
+		left: 18px;
+		font-size: 5.5vw;
+	}
+
+	.author {
+		display: block;
+		top: 25px;
+		left: 160px;
+		font-size: 5.8vw;
+	}
+
+	.name {
+		top: 370px;
+		left: 270px;
+		transform: rotate(270deg);
+		transform-origin: left top 0;
+	}
+
+	.bioContainer {
+		width: 80%;
+		top: 12%;
+		margin-left: 5%;
+		padding: 3%;
+	}
+
+	.bio1, .bio2, .bio3, .bio4 {
+		font-size: 3vw;
+	}
+
+	.sAndP, .colorClock, .tDRPG, .sT {
+		width: 35%;
+	}
+
+	.sAndP {
+		top: 16%;
+		left: 10%;
+	}
+	.colorClock {
+		top: 16%;
+		left: 52%;
+	}
+
+	.tDRPG {
+		top: 49%;
+		left: 10%;
+	}
+
+	.sT {
+		top: 49%;
+		left: 52%;
+	}
+
+	.surfAndPaddle, .colorClockImg, .toDoRPG, .starterTech {
+		width: 100%;
+		position: relative;
+	}
+
+	.surfAndPaddleText, .colorClockText, .toDoRPGText, .starterTechText {
+		font-size: 35px;
+	}
+
+	.surfAndPaddleText {
+		width: 75%;
+	}
+
+	.colorClockText {
+		width: 65%;
+	}
+
+	.toDoRPGText {
+		width: 63%;
+	}
+
+	.starterTechText {
+		width: 64%;
+	}
+
+	.sAndPCodeButton, .sAndPSiteButton, .colorClockCodeButton, .colorClockSiteButton, .tDRPGCodeButton, .tDRPGSiteButton, .sTCompButton {
+		font-size: 23px;
+	}
+
+	.sAndPCodeButton, .sAndPSiteButton, .colorClockCodeButton, .colorClockSiteButton, .tDRPGCodeButton, .tDRPGSiteButton {
+		width: 49%;
+	}
+
+	.sTCompButton {
+		width: 55%;
+	}
+
+	.github, .medium, .twitter, .linkedIn, .email {
+		position: absolute;
+		width: 150px;
+	}
+
+	.github {
+		top: 17%;
+		left: 40%;
+	}
+
+	.medium {
+		top: 33%;
+		left: 40%;
+	}
+
+	.twitter {
+		top: 49%;
+		left: 40%;
+	}
+
+	.linkedIn {
+		top: 65%;
+		left: 40%;
+	}
+
+	.email {
+		top: 80%;
+		left: 40%;
+	}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	.quoteContainer {
+		width: 70%;
+		height: 65vh;
+		margin-left: 15%;
+	}
+
+	.quote, .author {
+		font-family: 'Martel Sans', sans-serif;
+		position: relative;
+		top: 20px;
+		color: white;
+		z-index: 1;
+	}
+
+	.quote {
+		font-size: 4.5vw;
+	}
+
+	.author {
+		left: 165px;
+		font-size: 5.8vw;
+	}
+
+	.name {
+		top: 220px;
+		left: 290px;
+		transform: rotate(270deg);
+		transform-origin: left top 0;
+	}
+
+	.bioContainer {
+		width: 81%;
+		top: 18%;
+		margin-left: 6%;
+		margin-top: 18%;
+	}
+
+	.bio1, .bio2, .bio3, .bio4 {
+		font-size: 1.9vw;
+	}
+
+	.sAndP, .colorClock, .tDRPG, .sT {
+		width: 30%;
+	}
+
+	.sAndP {
+		top: 16%;
+		left: 7%;
+	}
+	.colorClock {
+		top: 16%;
+		left: 52%;
+	}
+
+	.tDRPG {
+		top: 56%;
+		left: 7%;
+	}
+
+	.sT {
+		top: 56%;
+		left: 52%;
+	}
+
+	.surfAndPaddleText, .colorClockText, .toDoRPGText, .starterTechText {
+		font-size: 31px;
+	}
+
+	.sAndPCodeButton, .sAndPSiteButton, .colorClockCodeButton, .colorClockSiteButton, .tDRPGCodeButton, .tDRPGSiteButton, .sTCompButton {
+		font-size: 21px;
+	}
+
+	.sAndPCodeButton, .sAndPSiteButton, .colorClockCodeButton, .colorClockSiteButton, .tDRPGCodeButton, .tDRPGSiteButton {
+		width: 49%;
+	}
+
+	.sTCompButton {
+		width: 55%;
+	}
+
+	.github, .medium, .twitter, .linkedIn, .email {
+		position: absolute;
+		width: 130px;
+	}
+
+	.github {
+		top: 17%;
+		left: 15%;
+	}
+
+	.medium {
+		top: 33%;
+		left: 27%;
+	}
+
+	.twitter {
+		top: 49%;
+		left: 40%;
+	}
+
+	.linkedIn {
+		top: 65%;
+		left: 53%;
+	}
+
+	.email {
+		top: 80%;
+		left: 67%;
+	}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
 }
