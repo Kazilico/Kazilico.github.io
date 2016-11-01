@@ -71,7 +71,7 @@ body {
 		width: 45%;
 		height: 20vh;
 		position: fixed;
-		bottom: 12%;
+		bottom: 4%;
 		right: -2%;
 		z-index: 1;
 		background-image: -webkit-linear-gradient(top, #FFFFFF 0, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%);
@@ -80,7 +80,17 @@ body {
 	.name {
 		position: absolute;
 		font-family: 'Martel Sans', sans-serif, bolder;
-		font-size: 11vw;
+		font-size: 6vw;
+		color: white;
+		text-decoration: none;
+	}
+
+	.pronunciation {
+		position: absolute;
+		top: 90px;
+		left: 215px;
+		font-family: 'Martel Sans', sans-serif, bolder;
+		font-size: 4vw;
 		color: white;
 		text-decoration: none;
 	}
@@ -99,7 +109,7 @@ body {
 
 	.quoteContainer {
 		width: 60%;
-		height: 30vh;
+		height: 45vh;
 		position: relative;
 		top: 30%;
 		margin-left: 20%;
@@ -108,21 +118,37 @@ body {
 		background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
 	}
 
-	.quote, .author {
+	.quote, .author, .title, .skills {
 		font-family: 'Martel Sans', sans-serif;
-		position: relative;
-		display: inline;
 		top: 20px;
 		color: white;
 		z-index: 1;
 	}
 
+	.title {
+		left: 20px;
+		font-size: 2.8vw;
+		text-align: center
+	}
+
+	.skills {
+		left: 20px;
+		font-size: 2.3vw;
+		text-align: center;
+	}
+
 	.quote {
+		position: relative;
+		display: inline;
+		top: 75px;
 		left: 20px;
 		font-size: 2.3vw;
 	}
 
 	.author {
+		position: relative;
+		display: inline;
+		top: 75px;
 		left: 50px;
 		font-size: 2.7vw;
 	}
@@ -273,45 +299,31 @@ body {
 		left: 0px;
 	}
 
-	.credit {
-		position: absolute;
-		left: 1%;
-		bottom: 1%;
-		font-family: 'Martel Sans', sans-serif;
-		font-size: 8px;
-		color: #B9B5A9;
-		text-decoration: none;
-	}
-
 	.github, .medium, .twitter, .linkedIn, .email {
 		position: absolute;
 		width: 110px;
 		top: 40%;
+		color: #7CA447;
 	}
 
 	.github {
-		left: 15%;
-		content:url("images/GithubGreen.png");
+		left: 13%;
 	}
 
 	.medium {
-		left: 30%;
-		content:url("images/MediumGreen.png");
+		left: 28%;
 	}
 
 	.twitter {
 		left: 44%;
-		content:url("images/TwitterGreen.png");
 	}
 
 	.linkedIn {
 		left: 59%;
-		content:url("images/LinkedInGreen.png");
 	}
 
 	.email {
 		left: 74%;
-		content:url("images/close-envelope.png");
 	}
 }
 
@@ -373,6 +385,11 @@ body {
 	}
 
 	.name {
+		transform: rotate(270deg);
+		transform-origin: ;
+	}
+
+	.pronunciation {
 		transform: rotate(270deg);
 		transform-origin: ;
 	}
