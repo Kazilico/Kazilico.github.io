@@ -71,7 +71,7 @@ body {
 		width: 45%;
 		height: 20vh;
 		position: fixed;
-		bottom: 4%;
+		bottom: 7%;
 		right: -2%;
 		z-index: 1;
 		background-image: -webkit-linear-gradient(top, #FFFFFF 0, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%);
@@ -88,7 +88,7 @@ body {
 	.pronunciation {
 		position: absolute;
 		top: 90px;
-		left: 215px;
+		left: 15%;
 		font-family: 'Martel Sans', sans-serif, bolder;
 		font-size: 4vw;
 		color: white;
@@ -120,37 +120,38 @@ body {
 
 	.quote, .author, .title, .skills {
 		font-family: 'Martel Sans', sans-serif;
-		top: 20px;
 		color: white;
 		z-index: 1;
 	}
 
 	.title {
+		top: 20px;
 		left: 20px;
 		font-size: 2.8vw;
 		text-align: center
 	}
 
 	.skills {
+		top: 20px;
 		left: 20px;
-		font-size: 2.3vw;
+		font-size: 2.1vw;
 		text-align: center;
 	}
 
 	.quote {
 		position: relative;
 		display: inline;
-		top: 75px;
+		bottom: -30px;
 		left: 20px;
-		font-size: 2.3vw;
+		font-size: 2.0vw;
 	}
 
 	.author {
 		position: relative;
 		display: inline;
-		top: 75px;
+		bottom: -25px;
 		left: 50px;
-		font-size: 2.7vw;
+		font-size: 2.2vw;
 	}
 
 	.kazilico {
@@ -174,7 +175,7 @@ body {
 		background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
 	}
 
-	.bio1, .bio2, .bio3, .bio4 {
+	.bio1, .bio2, .bio3 {
 		font-family: 'Martel Sans', sans-serif;
 		position: relative;
 		display: inline-block;
@@ -328,6 +329,7 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
+
 	.github {
 		top: 75%;
 		left: 15%;
@@ -381,15 +383,18 @@ body {
 
 	.fixed {
 		bottom: 12%;
-		right: -24%;
+		right: -22%;
 	}
 
 	.name {
+		bottom: 20px;
 		transform: rotate(270deg);
 		transform-origin: ;
 	}
 
 	.pronunciation {
+		display: inline-block;
+		bottom: 20px;
 		transform: rotate(270deg);
 		transform-origin: ;
 	}
