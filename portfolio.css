@@ -212,38 +212,35 @@ body {
 		z-index: 1000;
 	}
 	*/
-	.sAndP, .colorClock, .tDRPG, .sT {
+	.project {
 		position: absolute;
 		display: inline-block;
 		width: 20%;
 		text-decoration: none;
 	}
 
-	.sAndP {
+	.projecttop {
 		top: 16%;
-		left: 10%;
-	}
-	.colorClock {
-		top: 16%;
-		left: 35%;
 	}
 
-	.tDRPG {
-		top: 59%;
+	.projectleft {
 		left: 10%;
 	}
 
-	.sT {
+	.projectbottom {
 		top: 59%;
+	}
+
+	.projectright {
 		left: 35%;
 	}
 
-	.surfAndPaddle, .colorClockImg, .toDoRPG, .starterTech {
+	.projectThumb {
 		width: 100%;
 		position: relative;
 	}
 
-	.surfAndPaddle, .starterTech {
+	.projectThumb1, .projectThumb4 {
 		top: 2px;
 	}
 
@@ -302,9 +299,7 @@ body {
 
 	.github, .medium, .twitter, .linkedIn, .email {
 		position: absolute;
-		width: 110px;
 		top: 40%;
-		color: #7CA447;
 	}
 
 	.github {
@@ -312,19 +307,37 @@ body {
 	}
 
 	.medium {
-		left: 28%;
+		left: 18%;
 	}
 
 	.twitter {
-		left: 44%;
+		left: 22%;
 	}
 
 	.linkedIn {
-		left: 59%;
+		left: 25%;
 	}
 
 	.email {
-		left: 74%;
+		left: 30%;
+	}
+
+	.fa {
+		display: inline-block;
+		position: absolute;
+	}
+
+	.medium-background {
+		left: -2px;
+		top: 1px;
+	}
+
+	.fa-stack-5x {
+		color: white;
+	}
+
+	.fa-stack-4x {
+		color: #7CA447;
 	}
 }
 
@@ -333,31 +346,26 @@ body {
 	.github {
 		top: 75%;
 		left: 15%;
-		content:url("images/GithubGreenSmall.png");
 	}
 
 	.medium {
 		top: 60%;
-		left: 30%;
-		content:url("images/MediumGreenSmall.png");
+		left: 18%;
 	}
 
 	.twitter {
 		top: 45%;
-		left: 44%;
-		content:url("images/TwitterGreenSmall.png");
+		left: 22%;
 	}
 
 	.linkedIn {
 		top: 30%;
-		left: 59%;
-		content:url("images/LinkedInGreenSmall.png");
+		left: 27%;
 	}
 
 	.email {
 		top: 15%;
-		left: 74%;
-		content:url("images/close-envelopeSmall.png");
+		left: 30%;
 	}
 }
 
@@ -552,6 +560,31 @@ body {
 		display: block;
 		margin-top: 10px;
 		width: 100%;
+	}
+
+	.github {
+		top: 75%;
+		left: 15%;
+	}
+
+	.medium {
+		top: 60%;
+		left: 18%;
+	}
+
+	.twitter {
+		top: 45%;
+		left: 22%;
+	}
+
+	.linkedIn {
+		top: 30%;
+		left: 27%;
+	}
+
+	.email {
+		top: 15%;
+		left: 30%;
 	}
 
 }

@@ -14,6 +14,16 @@ function setAnchors() {
 
 	})
 }
+/*
+//onresize:
+var scrollAmount;
+
+if (topNode.getBoundingClientRect().top >= 0) {
+    scrollAmount = $(topNode).offset().top - topNode.getBoundingClientRect().top;
+} else {
+    scrollAmount = $(topNode.offset().bottom - topNode.getBoundingClientRect().bottom;
+}
+$(window).scrollTop(scrollAmount);
 
 /*function expand(element) {
 	var target = document.getElementById(element);
