@@ -244,7 +244,7 @@ body {
 		top: 2px;
 	}
 
-	.surfAndPaddleText, .colorClockText, .toDoRPGText, .starterTechText {
+	.projectText {
 		font-family: 'Martel Sans', sans-serif;
 		position: relative;
 		padding-left: 10px;
@@ -253,23 +253,23 @@ body {
 		background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
 	}
 
-	.surfAndPaddleText {
+	.projectText1 {
 		width: 52%;
 	}
 
-	.colorClockText {
+	.projectText2 {
 		width: 46%;
 	}
 
-	.toDoRPGText {
+	.projectText3 {
 		width: 44%;
 	}
 
-	.starterTechText {
+	.projectText4 {
 		width: 47%;
 	}
 
-	.sAndPCodeButton, .sAndPSiteButton, .colorClockCodeButton, .colorClockSiteButton, .tDRPGCodeButton, .tDRPGSiteButton, .sTCompButton {
+	.projectButton {
 		font-family: 'Martel Sans', sans-serif;
 		position: relative;
 		display: inline-block;
@@ -281,11 +281,11 @@ body {
 		text-decoration: none;
 	}
 
-	.sAndPCodeButton, .sAndPSiteButton, .colorClockCodeButton, .colorClockSiteButton, .tDRPGCodeButton, .tDRPGSiteButton {
+	.projectButton1, .projectButton2, .projectButton3, .projectButton4, .projectButton5, .projectButton6 {
 		width: 45%;
 	}
 
-	.sTCompButton {
+	.projectButton7 {
 		width: 50%;
 	}
 
@@ -451,14 +451,15 @@ body {
 	}
 
 	.name {
+		display: inline-block;
 		bottom: 20px;
+		float: left;
 		transform: rotate(270deg);
 		transform-origin: ;
 	}
 
 	.pronunciation {
-		display: inline-block;
-		bottom: 20px;
+		display: none;
 		transform: rotate(270deg);
 		transform-origin: ;
 	}
@@ -518,103 +519,44 @@ body {
 		font-size: 2.4vw;
 	}
 
-	.sAndP {
+	.project {
 		width: 35%;
+	}
+
+	.projecttop {
 		top: 20%;
+	}
+
+	.projectleft {
 		left: 10%;
 	}
 
-	.surfAndPaddleText {
+	.projectbottom {
+		top: 59%;
+	}
+
+	.projectright {
+		left: 50%;
+	}
+
+	.projectText {
 		width: 100%;
 		font-size: 15px;
 		text-align: center;
 		padding: 10px;
 	}
 
-	.sAndPCodeButton {
+	.projectButton {
 		display: block;
-		margin-top: 10px;
 		width: 100%;
+	}
+
+	.projectButton1, .projectButton3, .projectButton5, .projectButton7 {
+		margin-top: 10px;
 	}
 
 	.sAndPSiteButton {
 		display: block;
-		width: 100%;
-	}
-
-	.colorClock {
-		width: 35%;
-		top: 20%;
-		left: 50%;
-	}
-
-	.colorClockText {
-		width: 100%;
-		font-size: 15px;
-		text-align: center;
-		padding: 10px;
-	}
-
-	.colorClockCodeButton {
-		display: block;
-		margin-top: 10px;
-		width: 100%;
-	}
-
-	.colorClockSiteButton {
-		display: block;
-		width: 100%;
-	}
-
-	.tDRPG {
-		width: 35%;
-		top: 59%;
-		left: 10%;
-	}
-
-	.toDoRPG {
-		width: 100%;
-		position: relative;
-	}
-
-	.toDoRPGText {
-		width: 100%;
-		font-size: 15px;
-		text-align: center;
-		padding: 10px;	}
-
-	.tDRPGCodeButton {
-		display: block;
-		margin-top: 10px;
-		width: 100%;
-	}
-
-	.tDRPGSiteButton {
-		display: block;
-		width: 100%;
-	}
-
-	.sT {
-		width: 35%;
-		top: 59%;
-		left: 50%;
-	}
-
-	.starterTech {
-		width: 100%;
-		position: relative;
-	}
-
-	.starterTechText {
-		width: 100%;
-		font-size: 15px;
-		text-align: center;
-		padding: 10px;
-	}
-
-	.sTCompButton {
-		display: block;
-		margin-top: 10px;
 		width: 100%;
 	}
 
@@ -849,6 +791,12 @@ body {
 		left: 290px;
 		transform: rotate(270deg);
 		transform-origin: left top 0;
+	}
+
+	.pronunciation {
+		display: none;
+		transform: rotate(270deg);
+		transform-origin: ;
 	}
 
 	.bioContainer {
