@@ -299,31 +299,31 @@ body {
 
 	.github, .medium, .twitter, .linkedIn, .email {
 		position: absolute;
+		width: 0px;
 		top: 40%;
 	}
 
 	.github {
-		left: 13%;
+		left: 10%;
 	}
 
 	.medium {
-		left: 18%;
+		left: 27%;
 	}
 
 	.twitter {
-		left: 22%;
+		left: 45%;
 	}
 
 	.linkedIn {
-		left: 25%;
+		left: 63%;
 	}
 
 	.email {
-		left: 30%;
+		left: 80%;
 	}
 
 	.fa {
-		display: inline-block;
 		position: absolute;
 	}
 
@@ -344,28 +344,84 @@ body {
 @media screen and (max-width: 1200px) {
 
 	.github {
-		top: 75%;
-		left: 15%;
+		top: 46%;
+		left: 10%;
 	}
 
 	.medium {
-		top: 60%;
-		left: 18%;
-	}
-
-	.twitter {
-		top: 45%;
-		left: 22%;
-	}
-
-	.linkedIn {
-		top: 30%;
+		top: 43%;
 		left: 27%;
 	}
 
+	.twitter {
+		top: 40%;
+		left: 45%;
+	}
+
+	.linkedIn {
+		top: 37%;
+		left: 63%;
+	}
+
 	.email {
-		top: 15%;
-		left: 30%;
+		top: 34%;
+		left: 80%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+
+	.github {
+		top: 52%;
+		left: 10%;
+	}
+
+	.medium {
+		top: 46%;
+		left: 27%;
+	}
+
+	.twitter {
+		top: 40%;
+		left: 45%;
+	}
+
+	.linkedIn {
+		top: 34%;
+		left: 63%;
+	}
+
+	.email {
+		top: 28%;
+		left: 80%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+
+	.github {
+		top: 58%;
+		left: 10%;
+	}
+
+	.medium {
+		top: 49%;
+		left: 27%;
+	}
+
+	.twitter {
+		top: 40%;
+		left: 45%;
+	}
+
+	.linkedIn {
+		top: 31%;
+		left: 63%;
+	}
+
+	.email {
+		top: 22%;
+		left: 80%;
 	}
 }
 
@@ -563,30 +619,29 @@ body {
 	}
 
 	.github {
-		top: 75%;
-		left: 15%;
+		top: 64%;
+		left: 10%;
 	}
 
 	.medium {
-		top: 60%;
-		left: 18%;
-	}
-
-	.twitter {
-		top: 45%;
-		left: 22%;
-	}
-
-	.linkedIn {
-		top: 30%;
+		top: 52%;
 		left: 27%;
 	}
 
-	.email {
-		top: 15%;
-		left: 30%;
+	.twitter {
+		top: 40%;
+		left: 45%;
 	}
 
+	.linkedIn {
+		top: 28%;
+		left: 63%;
+	}
+
+	.email {
+		top: 16%;
+		left: 80%;
+	}
 }
 
 /* Smartphones (portrait and landscape) ----------- */
