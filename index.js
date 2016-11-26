@@ -14,16 +14,43 @@ function setAnchors() {
 
 	})
 }
-/*
-//onresize:
-var scrollAmount;
 
-if (topNode.getBoundingClientRect().top >= 0) {
-    scrollAmount = $(topNode).offset().top - topNode.getBoundingClientRect().top;
-} else {
-    scrollAmount = $(topNode.offset().bottom - topNode.getBoundingClientRect().bottom;
-}
-$(window).scrollTop(scrollAmount);
+(function () {
+    var topNode;
+    
+    window.onscroll = function () {
+        var timer;
+        (function () {
+            clearTimeout(timer);
+            timer = setTimeout(
+                function() {
+                    for(var x = 0 ; x < document.body.offsetWidth ; x++) {
+                        topNode =  document.elementFromPoint(x,10);
+                        if (topNode.childNodes.length === 1) {
+                            return
+                        }
+                    }
+                },
+                100
+            );
+        })();
+    }
+    
+    window.onresize = function () {
+        var timer;
+        (function () {
+            clearTimeout(timer);
+            if (topNode) {
+                timer = setTimeout(
+                    function () { 
+                        topNode.scrollIntoView(true); 
+                    },
+                    10
+                );
+            }
+        })();
+    }
+})();
 
 /*function expand(element) {
 	var target = document.getElementById(element);
