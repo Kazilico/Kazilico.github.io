@@ -15,6 +15,331 @@ body {
     background-color: #000000 !important;
 }
 
+
+	.container {
+		width: 100%;
+		height: 100vh;
+		text-decoration: none;
+	}
+
+	.nav {
+		width: 100%;
+		height: 100px;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		z-index: 2;
+		background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.9) 0%, rgba(25, 25, 25, 0.9) 100%);
+	}
+
+	a:link, a:visited {
+		text-decoration: none;
+	}
+
+	.aboutMe, .myWork, .contact {
+		font-family: 'Martel Sans', sans-serif;
+		position: relative;
+		display: inline-block;
+		top: 30%;
+		font-size: 2vw;
+		color: white;
+		text-decoration: none
+	}
+
+	.aboutMe {
+		left: 21%;
+	}
+
+	.myWork {
+		left: 40%;
+	}
+
+	.contact {
+		left: 58%;
+	}
+
+	a.aboutMe:hover, a.myWork:hover, a.contact:hover {
+		color: #B9B5A9;
+	}
+
+	a.aboutMe:focus, a.myWork:focus, a.contact:focus {
+		color: #7CA447;
+	}
+
+	.fixed {
+		width: 45%;
+		height: 20vh;
+		position: fixed;
+		bottom: 7%;
+		right: -2%;
+		z-index: 1;
+		background-image: -webkit-linear-gradient(top, #FFFFFF 0, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%);
+	}
+
+	.name {
+		position: absolute;
+		font-family: 'Martel Sans', sans-serif, bolder;
+		font-size: 6vw;
+		color: white;
+		text-decoration: none;
+	}
+
+	.pronunciation {
+		position: absolute;
+		top: 90px;
+		left: 15%;
+		font-family: 'Martel Sans', sans-serif, bolder;
+		font-size: 4vw;
+		color: white;
+		text-decoration: none;
+	}
+
+	a.name:hover {
+		color: #B9B5A9;
+	}
+
+	.intro {
+		width: 100%;
+		height: 100vh;
+		position: relative;
+		top: 0px;
+		left: 0px;
+	}
+
+	.quoteContainer {
+		width: 60%;
+		height: 45vh;
+		position: relative;
+		top: 30%;
+		margin-left: 20%;
+		padding: 20px;
+		z-index: 1;
+		background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
+	}
+
+	.quote, .author, .title, .skills {
+		font-family: 'Martel Sans', sans-serif;
+		color: white;
+		z-index: 1;
+	}
+
+	.title {
+		top: 20px;
+		left: 20px;
+		font-size: 2.8vw;
+		text-align: center
+	}
+
+	.skills {
+		top: 20px;
+		left: 20px;
+		font-size: 2.1vw;
+		text-align: center;
+	}
+
+	.quote {
+		position: relative;
+		display: inline;
+		bottom: -30px;
+		left: 20px;
+		font-size: 2.0vw;
+	}
+
+	.author {
+		position: relative;
+		display: inline;
+		bottom: -25px;
+		left: 50px;
+		font-size: 2.2vw;
+	}
+
+	.kazilico {
+		width: 100%;
+		height: 100vh;
+		position: relative;
+		top: 0px;
+		left: 0px;
+	}
+
+	.bioContainer {
+		width: 90%;
+		position: relative;
+		top: 17%;
+		margin-left: 5%;
+		margin-right: 15%;
+		margin-top: 20%;
+		margin-bottom:20%;
+		padding: 2%;
+		z-index: 1;
+		background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
+	}
+
+	.bio1, .bio2, .bio3 {
+		font-family: 'Martel Sans', sans-serif;
+		position: relative;
+		display: inline-block;
+		width: 100%;
+		padding-bottom: 1%;
+		left: 0%;
+		font-size: 1.4vw;
+		color: white;
+		z-index: 1;
+	}
+
+	.links {
+		font-family: 'Martel Sans', sans-serif;
+		position: absolute;
+		display: inline-block;
+		top: 40%;
+		right: 20%;
+		font-size: 35px;
+		color: white;
+		z-index: 1;
+	}
+
+	.workPage {
+		width: 100%;
+		height: 100vh;
+		position: relative;
+		top: 0px;
+		left: 0px;
+	}
+	/*
+	.activator:hover {
+		width: 150%;
+		-webkit-transition: width 2000;
+		z-index: 1000;
+	}
+	*/
+	.project {
+		position: absolute;
+		display: inline-block;
+		width: 20%;
+		text-decoration: none;
+	}
+
+	.projecttop {
+		top: 16%;
+	}
+
+	.projectleft {
+		left: 10%;
+	}
+
+	.projectbottom {
+		top: 59%;
+	}
+
+	.projectright {
+		left: 35%;
+	}
+
+	.projectThumb {
+		width: 100%;
+		position: relative;
+	}
+
+	.projectThumb1, .projectThumb4 {
+		top: 2px;
+	}
+
+	.projectText {
+		font-family: 'Martel Sans', sans-serif;
+		position: relative;
+		padding-left: 10px;
+		color: white;
+		font-size: 20px;
+		background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.7) 0%, rgba(25, 25, 25, 0.7) 100%);
+	}
+
+	.projectText1 {
+		width: 52%;
+	}
+
+	.projectText2 {
+		width: 46%;
+	}
+
+	.projectText3 {
+		width: 44%;
+	}
+
+	.projectText4 {
+		width: 47%;
+	}
+
+	.projectButton {
+		font-family: 'Martel Sans', sans-serif;
+		position: relative;
+		display: inline-block;
+		margin-top: 10px;
+		padding: 10px;
+		background-color: #7CA447;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.projectButton1, .projectButton2, .projectButton3, .projectButton4, .projectButton5, .projectButton6 {
+		width: 45%;
+	}
+
+	.projectButton7 {
+		width: 50%;
+	}
+
+	.contactPage {
+		width: 100%;
+		height: 100vh;
+		position: relative;
+		top: 0px;
+		left: 0px;
+	}
+
+	.github, .medium, .twitter, .linkedIn, .email {
+		position: absolute;
+		width: 0px;
+		top: 40%;
+	}
+
+	.github {
+		left: 10%;
+	}
+
+	.medium {
+		left: 27%;
+	}
+
+	.twitter {
+		left: 45%;
+	}
+
+	.linkedIn {
+		left: 63%;
+	}
+
+	.email {
+		left: 80%;
+	}
+
+	.fa {
+		position: absolute;
+	}
+
+	.medium-background {
+		left: -2px;
+		top: 1px;
+	}
+
+	.fa-stack-5x {
+		color: white;
+	}
+
+	.fa-stack-4x {
+		color: #7CA447;
+	}
+
+
 @media screen and (max-width: 1600px) {
 
 	.container {
