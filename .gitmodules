@@ -9,3 +9,6 @@
 [submodule "projects/todo-rpg"]
 	path = projects/todo-rpg
 	url = https://github.com/Kazilico/todo-rpg
+[submodule "fruityApp"]
+	path = fruityApp
+	url = https://github.com/kazilico/fruityApp
