@@ -12,3 +12,4 @@
 [submodule "projects/fruityApp"]
 	path = projects/fruityApp
 	url = https://github.com/kazilico/fruityApp
+	branch = gh-pages
