@@ -11,5 +11,5 @@
 	url = https://github.com/Kazilico/todo-rpg
 [submodule "projects/fruityApp"]
 	path = projects/fruityApp
-	url = https://github.com/kazilico/fruityApp
+	url = https://github.com/Kazilico/fruityApp
 	branch = gh-pages
