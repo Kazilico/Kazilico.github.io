@@ -1,0 +1,299 @@
+body {
+	background-color: #536595;
+}
+
+.header {
+	background-color: black;
+	height: 20vh;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.title, .directions {
+	position: relative;
+	display: inline-block;
+	font-family: Arial;
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.title {
+	color: #536595;
+	font-size: 25px;
+}
+.directions {
+	color: white;
+	font-size: 20px;
+}
+
+.fruitTable {
+	display: table;
+	max-width: 919px;
+	width: 100%;
+	margin: 0px auto;
+}
+
+.fruitRow {
+	display: table-row;
+}
+
+.fruit, .ripeFruit{
+	position: relative;
+	display: inline-block;
+	font-family: Arial;
+	text-align: center;
+	font-size: 16px;
+	border: 1px #ffffff solid;
+	-webkit-border-radius: 20px 20px 20px 20px;
+	border-radius: 20px 20px 20px 20px;
+	resize: none;
+	overflow-y: scroll;
+	outline: 0;
+	transition-duration: 0.2s;
+	overflow: visible;
+	background-repeat: no-repeat;
+	top: 25px;
+}
+
+.fruitText {
+	position: initial;
+	display: inline-block;
+	font-family: Arial;
+	color: white;
+	top: 2%;
+	padding: 3%;
+	background-image: -webkit-linear-gradient(top, rgba(25, 25, 25, 0.5) 0%, rgba(25, 25, 25, 0.5) 100%);
+	border: 1px rgba(25, 25, 25, 0.2) solid;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.ripeMonthsText, .ripeMonthsTextFirst, .ripeMonthsTextLast {
+	position: initial;
+	display: inline-block;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	background: rgba(83, 101, 149, 0.5);
+	text-align: center;
+	font-family: Arial;
+	line-height: 20px;
+	font-size: 11px;
+	color: white;
+	text-decoration: none;
+	opacity: 0;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+
+.fruit:hover .ripeMonthsText, .fruit:hover .ripeMonthsTextFirst, .fruit:hover .ripeMonthsTextLast {
+	top: 0;
+	display: inline-block;
+	opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}
+
+.ripeFruit:hover .ripeFruit {
+	.background: (200, 200, 200, 0.5)
+}
+
+.ripeFruit:hover .ripeMonthsText, .fruit:hover .ripeMonthsTextFirst, .fruit:hover .ripeMonthsTextLast {
+	top: 0;
+	display: block;
+	opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}
+
+.MulberriesRipe, .NectarinesRipe, .OrangesRipe, .PeachesRipe, .PecansRipe, .PersimmonsRipe, .PistachiosRipe, .PlumsRipe, .PluotsRipe, .PomegranatesRipe, .PomelosRipe, .QuincesRipe, .RaspberriesRipe, .RhubarbRipe, .StrawberriesRipe, .TayberriesRipe, .TomatoesRipe, .WalnutsRipe {
+	width: 180px;
+	height: 180px;
+	margin-left:auto;
+	margin-right:auto;
+	margin: 2%;
+}
+.MulberriesRipe {
+	top: -54px;
+	background-image: url(images/Mulberries.jpg);
+}
+
+.NectarinesRipe {
+	background-image: url(images/Nectarines.jpg);
+}
+
+.OrangesRipe {
+	top: -55px;
+	background-image: url(images/Oranges.jpg);
+}
+
+.PeachesRipe {
+	background-image: url(images/Peaches.jpg);
+}
+
+.PecansRipe {
+	top: -110px;
+	background-image: url(images/Pecans.jpg);
+}
+
+.PersimmonsRipe {
+	top: -70px;
+	background-image: url(images/Persimmons.jpg);
+}
+
+.PistachiosRipe {
+	top: -70px;
+	background-image: url(images/Pistachios.jpg);
+}
+
+.PlumsRipe {
+	top: -90px;
+	background-image: url(images/Plums.jpg);
+}
+
+.PluotsRipe {
+	background-image: url(images/Pluots.jpg);
+}
+
+.PomegranatesRipe {
+	top: -165px;
+	background-image: url(images/Pomegranates.jpg);
+}
+
+.PomelosRipe {
+	top: -125px;
+	background-image: url(images/Pomelos.jpg);
+}
+
+.QuincesRipe {
+	top: -185px;
+	background-image: url(images/Quinces.jpg);
+}
+
+.RaspberriesRipe {
+	top: -205px;
+	background-image: url(images/Raspberries.jpg);
+}
+
+.RhubarbRipe {
+	top: -260px;
+	background-image: url(images/Rhubarb.jpg);
+}
+
+.StrawberriesRipe {
+	top: -300px;
+	background-image: url(images/Strawberries.jpg);
+}
+
+.TayberriesRipe {
+	top: -280px;
+	background-image: url(images/Tayberries.jpg);
+}
+
+.TomatoesRipe {
+	top: -220px;
+	background-image: url(images/Tomatoes.jpg);
+}
+
+.WalnutsRipe {
+	top: -315px;
+	background-image: url(images/Walnuts.jpg);
+}
+
+.Mulberries, .Nectarines, .Oranges, .Peaches, .Pecans, .Persimmons, .Pistachios, .Plums, .Pluots, .Pomegranates, .Pomelos, .Quinces, .Raspberries, .Rhubarb, .Strawberries, .Tayberries, .Tomatoes, .Walnuts {
+	width: 180px;
+	height: 180px;
+	margin-left:auto;
+	margin-right:auto;
+	margin: 2%;
+}
+.Mulberries {
+	top: -54px;
+	background-image: url(images/MulberriesDark.jpg);
+}
+
+.Nectarines {
+	background-image: url(images/NectarinesDark.jpg);
+}
+
+.Oranges {
+	top: -54px;
+	background-image: url(images/OrangesDark.jpg);
+}
+
+.Peaches {
+	background-image: url(images/PeachesDark.jpg);
+}
+
+.Pecans {
+	top: -110px;
+	background-image: url(images/PecansDark.jpg);
+}
+
+.Persimmons {
+	top: -70px;
+	background-image: url(images/PersimmonsDark.jpg);
+}
+
+.Pistachios {
+	top: -70px;
+	background-image: url(images/PistachiosDark.jpg);
+}
+
+.Plums {
+	top: -110px;
+	background-image: url(images/PlumsDark.jpg);
+}
+
+.Pluots {
+	background-image: url(images/PluotsDark.jpg);
+}
+
+.Pomegranates {
+	top: -165px;
+	background-image: url(images/PomegranatesDark.jpg);
+}
+
+.Pomelos {
+	top: -125px;
+	background-image: url(images/PomelosDark.jpg);
+}
+
+.Quinces {
+	top: -185px;
+	background-image: url(images/QuincesDark.jpg);
+}
+
+.Raspberries {
+	top: -205px;
+	background-image: url(images/RaspberriesDark.jpg);
+}
+
+.Rhubarb {
+	top: -260px;
+	background-image: url(images/RhubarbDark.jpg);
+}
+
+.Strawberries {
+	top: -300px;
+	background-image: url(images/StrawberriesDark.jpg);
+}
+
+.Tayberries {
+	top: -280px;
+	background-image: url(images/TayberriesDark.jpg);
+}
+
+.Tomatoes {
+	top: -220px;
+	background-image: url(images/TomatoesDark.jpg);
+}
+
+.Walnuts {
+	top: -315px;
+	background-image: url(images/WalnutsDark.jpg);
+}
